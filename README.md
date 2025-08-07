@@ -17,10 +17,10 @@ containerized using **Docker** and deployed on **Render**. The frontend is deplo
 - React  
 - JavaScript (ES6+)  
 - HTML/CSS  
-- Fetch API or Axios  
+- Fetch API  
 
 ### 🔸 Backend  
-- Java 17+  
+- Java 21  
 - Spring Boot  
 - Spring Data JPA  
 - PostgreSQL  
@@ -45,7 +45,7 @@ containerized using **Docker** and deployed on **Render**. The frontend is deplo
 ---  
 
 ## 📸 Screenshots
-| 📋 Item List                      | ✏️ Edit Mode                      |
+| 📋 Item List                      | ✏️ Compete Page                  |
 | --------------------------------- | --------------------------------- |
 | *<img width="373" height="386" alt="image" src="https://github.com/user-attachments/assets/88c92cb7-eae0-4fc2-b761-48a9824545b1" />* | *<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a5687d02-b574-46f9-93b8-29042686eb68" />* |
 
@@ -71,7 +71,15 @@ containerized using **Docker** and deployed on **Render**. The frontend is deplo
 
 ## 📦 Setup Instructions
 
-### 🐳 Backend (Spring Boot + Docker on Render)
+### 🐳 Backend (Spring Boot + Docker on Render)  
+🧩 Spring Boot &nbsp;|&nbsp; 🐳 Docker &nbsp;|&nbsp; 🚀 Render  
+
+### 🌐 Frontend (React App on Netlify)  
+⚛️ React &nbsp;|&nbsp; 🌐 Netlify  
+
+### 🗄️ Database (PostgreSQL on Neon)  
+🐘 PostgreSQL &nbsp;|&nbsp; 💡 Neon  
+
 
 > The backend is containerized using Docker and deployed on Render.
 
