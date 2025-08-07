@@ -42,7 +42,32 @@ containerized using **Docker** and deployed on **Render**. The frontend is deplo
 -  Seamless connection between frontend and backend  
 - 🌍Live deployments using Netlify & Render  
 
----
+---  
+
+## 📸 Screenshots
+| 📋 Item List                      | ✏️ Edit Mode                      |
+| --------------------------------- | --------------------------------- |
+| *\[Add screenshots if available]* | *<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a5687d02-b574-46f9-93b8-29042686eb68" />* |
+
+
+## 🌐 Folder Structure  
+/backend-demo-deploy 
+  └── src  
+      ├── App.jsx  
+      ├── App.css/  
+      └── Other Files ----/  
+  └── public/  
+
+/frontend-demo-deploy  
+  └── src  
+      └── main/java/com.backen_demo_deploy  
+          ├── ItemController/  
+          ├── Item/  
+          ├── ItemRepository/  
+          └── CorsConfig/  
+  └── Dockerfile  
+  └── application.properties  
+  └── .env  
 
 ## 📦 Setup Instructions
 
@@ -53,5 +78,5 @@ containerized using **Docker** and deployed on **Render**. The frontend is deplo
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo/backend
+git clone [https://github.com/your-username/your-repo.git](https://github.com/AkshitShekhawat/Full-Stack-demo-deploy.git)
+
