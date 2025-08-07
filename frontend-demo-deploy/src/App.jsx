@@ -13,7 +13,7 @@ function App() {
 
   const fetchItems = async () => {
     try {
-      const response = await fetch('http://localhost:8080/api/items');
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/items`);
       const data = await response.json();
       setItems(data);
     } catch (error) {
@@ -32,7 +32,7 @@ function App() {
     try {
       let response;
       if (editingItemId) {
-        response = await fetch(`http://localhost:8080/api/items/${editingItemId}`, {
+        response = await fetch(`${import.meta.env.VITE_API_URL}/api/items/${editingItemId}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ function App() {
         setMessage(response.ok ? 'Item updated successfully!' : 'Failed to update item.');
         setEditingItemId(null);
       } else {
-        response = await fetch('http://localhost:8080/api/items', {
+        response = await fetch(`${import.meta.env.VITE_API_URL}/api/items`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ function App() {
 
   const deleteItem = async (id) => {
     try {
-      const response = await fetch(`http://localhost:8080/api/items/${id}`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/items/${id}`, {
         method: 'DELETE',
       });
 
@@ -94,7 +94,7 @@ function App() {
         </p>
         <h2>Connect With me!</h2>
         <ul>
-          <li><a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">🌐 GitHub Repository</a></li>
+          <li><a href="https://github.com/AkshitShekhawat/c-r-u-d-demo-deploy" target="_blank" rel="noopener noreferrer">🌐 GitHub Repository</a></li>
           <li><a href="https://www.linkedin.com/in/akshit-singh-shekhawat/" target="_blank" rel="noopener noreferrer">🌐 Linkedin</a></li>
           <li><a href="mailto:akw17439@gmail.com" target="_blank" rel="noopener noreferrer">🌐 akw17439@gmail.com</a></li>
         </ul>
