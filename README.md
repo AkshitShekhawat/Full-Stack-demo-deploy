@@ -47,7 +47,7 @@ containerized using **Docker** and deployed on **Render**. The frontend is deplo
 ## 📸 Screenshots
 | 📋 Item List                      | ✏️ Edit Mode                      |
 | --------------------------------- | --------------------------------- |
-| *\[Add screenshots if available]* | *<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a5687d02-b574-46f9-93b8-29042686eb68" />* |
+| *<img width="373" height="386" alt="image" src="https://github.com/user-attachments/assets/88c92cb7-eae0-4fc2-b761-48a9824545b1" />* | *<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a5687d02-b574-46f9-93b8-29042686eb68" />* |
 
 
 ## 🌐 Folder Structure  
